@@ -11,8 +11,6 @@ RUN apt-get update && apt-get -y install \
 	php-pdo \
 	php-gd php-cli \
 	php-mbstring \
-	redis \
-	php-redis \
 	&& rm -rf /var/lib/apt/lists/*
 
 # I need to install wp_cli command and put it in the right directory /usr/local/bin
