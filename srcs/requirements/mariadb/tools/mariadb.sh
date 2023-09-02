@@ -16,6 +16,7 @@ else
 mysql_secure_installation << _EOF_
 
 Y
+Y
 P@ssw0rd123456
 P@ssw0rd123456
 Y
