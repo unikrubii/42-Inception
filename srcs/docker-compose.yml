@@ -46,13 +46,13 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /Users/rubii/42/cursus/inception/mysql
+      device: /home/sthitiku/inception/mysql
       o: bind
   wordpress:
     driver: local
     driver_opts:
       type: none
-      device: /Users/rubii/42/cursus/inception/wordpress
+      device: /home/sthitiku/inception/wordpress
       o: bind
 
 networks:
