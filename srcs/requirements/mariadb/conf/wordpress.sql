@@ -394,7 +394,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'sthitiku','$P$BcIAABxbqVsayyJoCNtgSQCd/IDrB3.','sthitiku','test@gmail.com','https://sthitiku.42.fr','2023-05-19 05:34:04','',0,'sthitiku');
+INSERT INTO `wp_users` VALUES (1,'sthitiku','P@ssw0rd123456','sthitiku','test@gmail.com','https://sthitiku.42.fr','2023-05-19 05:34:04','',0,'sthitiku');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

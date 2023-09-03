@@ -9,9 +9,9 @@ RUN apt-get update && apt-get -y install \
 	php-mysql \
 	php-fpm \
 	php-pdo \
-	php-gd php-cli \
-	php-mbstring \
-	&& rm -rf /var/lib/apt/lists/*
+	php-gd \
+	php-cli \
+	php-mbstring
 
 # I need to install wp_cli command and put it in the right directory /usr/local/bin
 RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && \
